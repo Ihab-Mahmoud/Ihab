@@ -118,11 +118,14 @@
     position: initial !important;
   }
 
+  
   .container {
     position: initial !important;
     height: auto !important;
     min-height: auto !important;
-
+    &.about-page{
+    height: 1000px !important;
+  }
     &.contact-page,
     &.about-page,
     &.portfolio-page {
