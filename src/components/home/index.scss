@@ -106,7 +106,7 @@
   .svg-conteiner {
     z-index: 0;
     width: 300px;
-    height: 500px;
+    /* height: revert-layer; */
     position: relative;
     bottom: 0;
     left: auto;
@@ -115,6 +115,8 @@
     animation-duration: 1s;
     animation-delay: 1s;
     animation-fill-mode: backwards;
+    right: 0;
+    display: flex;
 }
   .home-page .text-zone {
     position: initial;
