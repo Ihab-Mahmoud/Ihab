@@ -31,7 +31,7 @@ const About = () =>
               />
             </h1>
             <p>
-              I'm a very ambitious Mern Developer looking for a role in an
+              I'm a very ambitious Web Developer looking for a role in an
               established IT company with the opportunity to work with the
               latest technologies on challenging and diverse projects.
             </p>

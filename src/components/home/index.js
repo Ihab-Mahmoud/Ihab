@@ -13,10 +13,10 @@ const Home = () => {
   const [className, setClassName] = useState("text-animate");
   const nameArray = [`h`, `a`, `b`, ` `, `m`, `a`, `h`, `m`, `o`, `u`, `d`];
   const jobArray = [
-    `M`,
+    `W`,
     `e`,
-    `r`,
-    `n`,
+    `b`,
+
     ` `,
     `d`,
     `e`,
@@ -30,9 +30,8 @@ const Home = () => {
     `.`,
   ];
 
-    useEffect(() =>
-    {
-      console.log(SVG);
+  useEffect(() => {
+    console.log(SVG);
     const timer = setTimeout(() => {
       setClassName(`text-animate-hover`);
     }, 5000);
@@ -61,7 +60,7 @@ const Home = () => {
               idx={27}
             />
           </h1>
-          <h2>Mern stack developer / Computer engineer </h2>
+          <h2>Web Developer / Computer Engineer </h2>
           <Link to="/contact" className="flat-button">
             {" "}
             CONTACT ME
